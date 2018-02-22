@@ -1,0 +1,10 @@
+# !/usr/bin/env Rscript
+tryCatch.Rscript -- experiments with tryCatch
+
+# Get any arguments
+arguments  <- commandArgs(trailingOnly = TRUE)
+a <- arguments[1]
+
+# Define a division fucntion that can issue warnings and errors
+myDivide <- function(data) {
+  if (data

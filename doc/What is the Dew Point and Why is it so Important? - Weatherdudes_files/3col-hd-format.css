@@ -1,0 +1,303 @@
+/* Format Stylesheet */
+.menu2{
+    border-bottom: 1px solid #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+    background: #eeeeee;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.menu{
+    font-size: small;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 2px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+}
+.menuRight{
+    font-size: 12;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 2px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+    text-align: right;
+}
+.dave_title{
+    # font-size: smaller;
+    font-weight: bolder ;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 2px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+}
+.dave_body{
+    # font-size: smaller;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 2px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+}
+
+.dave_posted{
+    font-size: smaller;
+    font-style: italic;
+    text-align: right;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 2px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+}
+.hdr_title{
+    font-size: 170%;
+    font-weight: bolder ;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 10px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+    text-align: center;
+}
+.hdr_title2{
+    xpadding-top:225px;
+    xfont-size: 180%;
+    font-weight: bolder ;
+    text-align: center;
+    vertical-align: middle;
+}
+.hdr_title3{
+    margin: 0;
+    padding-top: 0px;
+    font-size: 190%;
+    font-weight: bolder ;
+    text-align: center;
+}
+.p_normal{
+    font-size: smaller;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 2px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+}
+
+
+.fact_title{
+    font-weight: bolder ;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 2px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+}
+.fact_body{
+    font-size: smaller;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 2px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+}
+.fact_tease{
+    font-size: smaller;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 12px; 
+    margin-top: 2px; 
+    margin-right: 12px; 
+    margin-bottom: 0px;
+}
+.fact_source{
+    font-size: smaller;
+    font-style: italic;
+    text-align: right;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 2px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+}
+.web_head{
+    font-size: 100%;
+    font-weight: bold;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+}
+.web_body{
+    font-size: smaller;
+    font-weight: lighter;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 15px; 
+    margin-top: 0px; 
+    margin-right: 15px; 
+    margin-bottom: 0px;
+}
+.web_date{
+    font-size: 70%;
+    text-align: right;
+    padding:0 5px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+}
+/* These 2 "dt" and "pp" are crap, and should go away... */
+dt
+{
+    padding : 0 10px;
+    margin : 0;
+}
+.pp{
+    padding:0 10px;
+    margin: 0;
+    margin-left: 2px; 
+    margin-top: 0px; 
+    margin-right: 0px; 
+    margin-bottom: 0px;
+  }
+/* Layout Stylesheet */ 
+
+/*
+body{
+ background : #87CEEB;
+ font : medium  arial,helvetica,sans-serif;
+ padding:0;
+ margin: 0;
+ } 
+ 
+#lh-col{
+ position: absolute;
+ top: 81px;
+ left: 0px;
+ width: 180px;
+ border: 1px solid #87CEEB;
+ background: #87CEEB;
+ color: #333333;
+ margin: 0;
+ padding: 0;
+ height: 800px;
+ z-index: 1;
+ }
+
+#lh-colFront{
+ position: absolute;
+ top: 179px;
+ left: 0px;
+ width: 180px;
+ border: 1px solid #87CEEB;
+ background: #87CEEB;
+ color: #333333;
+ margin: 0;
+ padding: 0;
+ height: 800px;
+ z-index: 1;}
+ 
+ #rh-col{
+position: absolute;
+ top: 81px;
+ right: 0px;
+ width: 180px;
+ border: 1px solid #87CEEB;
+ background: #87CEEB;
+ color: #333333;
+ margin: 0px;
+ padding: 0px;
+ height: 800px;
+ z-index: 1;}
+
+#rh-colFront{
+ position: absolute;
+ top: 179px;
+ right: 0px;
+ width: 179px;
+ border: 1px solid #87CEEB;
+ background: #87CEEB;
+ color: #333333;
+ margin: 0px;
+ padding: 0px;
+ height: 800px;
+ z-index: 1;}
+
+#hdr{
+ height:80px;
+ background:#eeeeee;
+ color:#333333;
+ margin:0;
+ padding:0;
+ border: solid #333333;
+border-width: 1px 1px 0 1px;
+ }
+
+#hdrFront{
+ height:175px;
+ background:#eeaa99;
+ color:#333333;
+ margin:0;
+ padding:0;
+ border: solid #333333;
+border-width: 1px 1px 0 1px;
+ } 
+      
+#c-col{
+ position: relative;
+ margin: 0 181px 10px 181px;
+ border: 1px solid #ffffff;
+ background: #ffffff;
+ color: #333333;
+ padding: 20px;
+ z-index: 3;
+ }
+ .cc-col{
+ position: relative;
+ margin: 0 181px 10px 181px;
+ border: 1px solid #ffffff;
+ background: #ffffff;
+ color: #333333;
+ padding: 20px;
+ z-index: 3;}
+*/
+/* Old Stuff */
+
+ #xrh-col{
+position: absolute;
+ top: 81px;
+ right: 0px;
+ width: 180px;
+ border: 1px solid #333333;
+ background: #c0c0c0;
+ color: #333333;
+ margin: 0px;
+ padding: 0px;
+ height: 800px;
+ z-index: 1;}
+#xlh-col{
+ position: absolute;
+ top: 81px;
+ left: 0px;
+ width: 180px;
+ border: 1px solid #333333;
+ background: #c0c0c0;
+ color: #333333;
+ margin: 0;
+ padding: 0;
+ height: 800px;
+ z-index: 1;
+ }

@@ -1,0 +1,41 @@
+capstone project
+
+Overview
+
+Name:          Assignment 6: Capstone project
+
+Type:           Data Visualisation and Pre-processing report
+
+Due:           18:00 AEST Saturday of week 7 (Mar 3, 2018)
+
+Weight:        40%
+
+
+This assessment involves writing a report that summarises a data science related investigation that you have conducted on data that you have collected yourself. The investigation must involve the main topics covered in the subject, most noticeably data pre-processing (representation, wrangling, tidying) and exploratory data visualisation using R/RStudio.
+
+
+It is a merger of Assessments 3 (Exploratory Visualisation) and 4 (Pre-Processing – Parts A and B), however neither the dataset nor the pre-processing/exploratory steps to be carried out will be provided, you have to make independent choices and decisions.
+
+
+You will need to find your own data using good practices. Your dataset cannot be smaller than 1000 observations of 5 variables, except if the targeted data science problem to be addressed relates to spatial-temporal data, case in which less than 5 dimensions could be allowed.
+
+
+The report should not exceed 10 pages. Download the Capstone Project assignment document for full details of this assessment.
+
+
+Assessment submission
+
+If you use Word or any other program, save your work as a pdf for submission.
+
+
+Include the following in your submission:
+
+
+    Your work in pdf format
+    The task cover sheet
+    Upload both files in one go
+
+
+Make sure you upload the correct files as you can submit only once.
+
+Capstone_Project_FDS.pdf

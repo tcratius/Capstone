@@ -1,0 +1,167 @@
+/* Layout Stylesheet */ 
+
+body{
+    background : #FFFFFF; /* #87CEEB;*/
+    font : medium  arial,helvetica,sans-serif;
+    padding:0;
+    margin: 0;
+} 
+ 
+#lh-col{
+    position: absolute;
+    top: 82px;
+    left: 0px;
+    width: 180px;
+    /*border: 0px 0px 1px 1px solid #87CEEB;*/
+    border-right: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    background:  #FFFFFF; /* #87CEEB;*/
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    z-index: 2;
+ }
+
+#lh-colFront{
+    position: absolute;
+    top: 179px;
+    left: 0px;
+    width: 180px;
+    /*border: 0px solid #87CEEB;*/
+    background:  #FFFFFF; /* #87CEEB;*/
+    /*border-right: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;*/
+    margin: 0;
+    padding: -1px;
+    height: 800px;
+    z-index: 1;
+}
+ 
+ #rh-col{
+    position: absolute;
+    top: 82px;
+    right: 0px;
+    width: 180px;
+    /*border: 0px solid #87CEEB;*/
+    border-left: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    background:  #FFFFFF; /* #87CEEB;*/
+    margin: 0px;
+    padding: 0px;
+    height: 800px;
+    z-index: 2;}
+
+#rh-colFront{
+    position: absolute;
+    top: 179px;
+    right: 0px;
+    width: 180px;
+    /*border: 0px solid #87CEEB
+    border-left: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    background:  #FFFFFF; /* #87CEEB;*/
+    margin: 0px;
+    padding: 1px;
+    height: 800px;
+    z-index: 1;
+}
+
+#hdr{
+    
+    height:60px;
+    width: 100%;
+    background:#dddddd;
+    margin:0;
+    padding-top:0px;
+    border-bottom: solid #bbbbbb;
+    border-width: 1px;
+    z-index: 10;
+ }
+#hdra{
+    
+    height:20px;
+    width: 100%;
+    background:#bbbbbb;
+    margin:0;
+    
+ }
+#hdr1{
+    
+    height:10px;
+    width: 100%;
+    background:#222222;
+    margin:0;
+    padding:0;
+}
+#hdr2{
+    
+    height:2px;
+    width: 100%;
+    background:#444444;
+    margin:0;
+}
+#hdr3{
+    
+    height:2px;
+    width: 100%;
+    background:#666666;
+    margin:0;
+}
+
+#hdrFront{
+    height:175px;
+    /*background:#eeaa99;*/
+    color:#333333;
+    margin:0;
+    padding:0;
+    /*border: 0px solid #333333;*/
+    border-bottom: 0px solid #bbbbbb;
+    /*border-width: 1px;
+    border-width: 0px 0px 0 0px;*/
+ } 
+      
+#c-col{
+ position: relative;
+ margin: 0 182px 10px 183px;
+ border: 1px solid #ffffff;
+ background: #ffffff;
+ color: #333333;
+ padding: 2px;
+ z-index: 3;
+ }
+ .cc-col{
+ position: relative;
+ margin: 0 183px 10px 183px;
+ border: 1px solid #ffffff;
+ background: #ffffff;
+ color: #333333;
+ padding: 2px;
+ z-index: 3;}
+
+/* Old Stuff */
+
+ #xrh-col{
+position: absolute;
+ top: 81px;
+ right: 0px;
+ width: 180px;
+ border: 1px solid #333333;
+ background: #c0c0c0;
+ color: #333333;
+ margin: 0px;
+ padding: 0px;
+ height: 800px;
+ z-index: 1;}
+#xlh-col{
+ position: absolute;
+ top: 81px;
+ left: 0px;
+ width: 180px;
+ border: 1px solid #333333;
+ background: #c0c0c0;
+ color: #333333;
+ margin: 0;
+ padding: 0;
+ height: 800px;
+ z-index: 1;
+ }
