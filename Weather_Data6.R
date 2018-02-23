@@ -81,14 +81,6 @@ Weather_Data_Missing_Values$snowfall <- as.numeric(Weather_Data_Missing_Values$s
 Weather_Data_Missing_Values$preciptotal <- as.numeric(Weather_Data_Missing_Values$preciptotal)
 
 #~~~~~~~~~~~~
-# table(sign(Weather_Data_Missing_Values$resultspeed)) 4 negative number
-# table(sign(Weather_Data_Missing_Values$avgspeed)) 2 negative numbers
-# Since wind speed cannot be a negative number change using abs() transform didn't work
-#~~~~~~~~~~~
-Weather_Data_Missing_Values$resultspeed <- as.numeric(Weather_Data_Missing_Values$resultspeed)
-Weather_Data_Missing_Values$resultspeed <-  abs(Weather_Data_Missing_Values$resultspeed)
-Weather_Data_Missing_Values$avgspeed <- abs(Weather_Data_Missing_Values$avgspeed)
-#~~~~~~~~~~~~
 # Change temperatur from Fahrenheit to Celsius and wind speed from knots to kilometre per hour
 #~~~~~~~~~~~
 Weather_Data_Missing_Values <- Weather_Data_Missing_Values %>%
@@ -195,9 +187,9 @@ Weather_Data_knn <- read.csv(csv, header = TRUE, sep = ",", dec = ".")
 
 #~~~~~~~~~~~
 # total_Nas <- (sum(7224,860,929,1724,589,589,875))/20517 = 0.6233855
-# Using Vim's kNN based on the principal that nearest matches should be contained in 
-# Last 7 columns.  K = 17 (16.8) set to the greatest distance between variables in Preciptotal  
+# kNN value k was assigned 5 due to fact it is dealing with positive integers
+# https://jcu.summon.serialssolutions.com/#!/search?bookMark=ePnHCXMwPV2xDsIgECWmg9V-gRNOTo0FirSz0Th16t4ccHFoTIzR__co0I2Ey-UYuHtHeO92rKC-FdnCTyWwrc8h4REM2LCSyoupL72Qxbpu2m1-ESGsKnvRleyYpEWffOaE3Pg8DHwZERk-zyzxVqz4fn6UP8f7bbw-6jQ3oAbRUlMkUSk0ygVCEUXYGYve6caBAKTrZL3yjRU-YHkTtGFacGjQA3rtrAS1Z6foNheq6R2VH6bI4tVTOhJZHqIluNdqlDf_QzJG5A  
 #~~~~~~~~~~
 
-Weather_Data_knn <- kNN(Weather_Data_knn, k = 17, imp_var = FALSE)
+Weather_Data_knn <- kNN(Weather_Data_knn, k = 5, imp_var = FALSE)
 
