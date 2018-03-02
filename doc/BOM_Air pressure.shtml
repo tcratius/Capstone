@@ -1,0 +1,526 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/standard/stylestd.css">
+<title>BOM_Air pressure</title>
+<base target="_top">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#FFFFFF">
+<div align="left">
+<a name="top"></a> <!--************* START OF STANDARD BUREAU HEADER ******-->
+	<ul id="jumplinks">
+		<li><a href="#content">Skip to main content</a></li>
+	</ul>
+
+    <!-- Start: PageHeight -->
+    <div id="pageheight">
+	  <div id="pagewrap">
+      <!-- Start: Header -->
+      <div id="header">
+		<div class="l_content">
+			<div id="header-logo">
+				<img class="bannerprint" width="1" height="1" alt="Print Background" src="//ws.cdn.bom.gov.au/images/ui/bannerprint.gif" />
+				<a id="logo" href="/?ref=logo"><img src="//ws.cdn.bom.gov.au/images/ui/bom_logo_clr.gif" title="Australian Government - Bureau of Meteorology" alt="Australian Government - Bureau of Meteorology" /></a>
+			</div>
+			<div id="header-main">
+				<div class="l_top">
+					<div id="header-search">
+						<form action="//search.bom.gov.au/s/search.html" method="get" class="searchform" enctype="application/x-www-form-urlencoded">
+							<label for="query">Search</label><input type="text" id="query" name="query" size="30" placeholder="Enter search terms" value="" />
+							<input type="hidden" name="collection" value="bom" />
+							<input type="submit" value="Search" name="Submit" title="Search" class="search" />
+						</form>
+					</div>
+					<ul>
+						<li><a href="/?ref=hdr">Home</a></li>
+						<li><a href="/inside/index.shtml?ref=hdr">About</a></li>
+                                                <li><a href="//media.bom.gov.au/">Media</a></li>
+						<li class="last"><a href="/inside/contacts.shtml?ref=hdr">Contacts</a></li>
+					</ul>
+				</div>
+				<div class="l_bottom">
+					<ul class="sf-menu">
+						<li id="sf-menu-nsw">
+							<abbr title="New South Wales"><a href="/nsw/?ref=hdr" title="New South Wales">NSW</a></abbr>
+							<ul>
+								<li class="decoration"><img src="//ws.cdn.bom.gov.au/images/weather/nsw-thumb.png" alt="" /></li>
+								<li class="heading"><a href="/nsw/index.shtml?ref=hdr" title="New South Wales Weather and Warnings">NSW Weather &amp; Warnings</a></li>
+								<li><a href="/nsw/warnings/index.shtml?ref=hdr" title="New South Wales Warnings Summary">Warnings Summary</a></li>
+								<li><a href="/nsw/forecasts/index.shtml?ref=hdr" title="New South Wales Forecasts">Forecasts</a></li>
+								<li><a href="/nsw/forecasts/sydney.shtml?ref=hdr" title="Sydney Forecast">Sydney Forecast</a></li>
+								<li><a href="/nsw/forecasts/map.shtml?ref=hdr" title="New South Wales Forecast Area Map">NSW Forecast Area Map</a></li>
+								<li><a href="/nsw/observations/index.shtml?ref=hdr" title="New South Wales Weather Observations">Observations</a></li>
+								<li><a href="/nsw/observations/sydney.shtml?ref=hdr" title="Latest Weather Observations for the Sydney Area">Sydney Observations</a></li>
+								<li><a href="/nsw/observations/nswall.shtml?ref=hdr" title="Latest Weather Observations for New South Wales">All NSW Observations</a></li>
+								<li class="last"><a href="/nsw/flood/index.shtml?ref=hdr" title="New South Wales Rainfall and River Conditions">Rainfall &amp; River Conditions</a></li>
+							</ul>
+							<div class="sf-menu-pointer"></div>
+						</li>
+						<li id="sf-menu-vic">
+							<abbr title="Victoria"><a href="/vic/?ref=hdr" title="Victoria">VIC</a></abbr>
+							<ul>
+								<li class="decoration"><img src="//ws.cdn.bom.gov.au/images/weather/vic-thumb.png" alt="" /></li>
+								<li class="heading"><a href="/vic/index.shtml?ref=hdr" title="Victorian Weather and Warnings">VIC Weather &amp; Warnings</a></li>
+								<li><a href="/vic/warnings/index.shtml?ref=hdr" title="Victorian Warnings Summary">Warnings Summary</a></li>
+								<li><a href="/vic/forecasts/index.shtml?ref=hdr" title="Victorian Forecasts">Forecasts</a></li>
+								<li><a href="/vic/forecasts/melbourne.shtml?ref=hdr" title="Melbourne Forecast">Melbourne Forecast</a></li>
+								<li><a href="/vic/forecasts/map.shtml?ref=hdr" title="Victorian Forecast Areas Map">Vic. Forecast Areas Map</a></li>
+								<li><a href="/vic/observations/index.shtml?ref=hdr" title="Victorian Observations">Observations</a></li>
+								<li><a href="/vic/observations/melbourne.shtml?ref=hdr" title="Latest Weather Observations for the Melbourne Area">Melbourne Observations</a></li>
+								<li><a href="/vic/observations/vicall.shtml?ref=hdr" title="Latest Weather Observations for Victoria">All Victorian Observations</a></li>
+								<li class="last"><a href="/vic/flood/index.shtml?ref=hdr" title="Victoria Rainfall and River Conditions">Rainfall &amp; River Conditions</a></li>
+							</ul>
+							<div class="sf-menu-pointer"></div>
+						</li>
+						<li id="sf-menu-qld">
+							<abbr title="Queensland"><a href="/qld/?ref=hdr" title="Queensland">QLD</a></abbr>
+							<ul>
+								<li class="decoration"><img src="//ws.cdn.bom.gov.au/images/weather/qld-thumb.png" alt="" /></li>
+								<li class="heading"><a href="/qld/index.shtml?ref=hdr" title="Queensland Weather and Warnings">QLD Weather &amp; Warnings</a></li>
+								<li><a href="/qld/warnings/index.shtml?ref=hdr" title="Queensland Warnings Summary">Warnings Summary</a></li>
+								<li><a href="/qld/forecasts/index.shtml?ref=hdr" title="Queensland Forecasts">Forecasts</a></li>
+								<li><a href="/qld/forecasts/brisbane.shtml?ref=hdr" title="Brisbane Forecast">Brisbane Forecast</a></li>
+								<li><a href="/qld/forecasts/map.shtml?ref=hdr" title="Queensland Forecast Areas Map">Qld. Forecast Areas Map</a></li>
+								<li><a href="/qld/observations/index.shtml?ref=hdr" title="Queensland Observations">Observations</a></li>
+								<li><a href="/qld/observations/brisbane.shtml?ref=hdr" title="Latest Weather Observations for the Brisbane Area">Brisbane Observations</a></li>
+								<li><a href="/qld/observations/qldall.shtml?ref=hdr" title="Latest Weather Observations for Queensland">All Queensland Observations</a></li>
+								<li class="last"><a href="/qld/flood/index.shtml?ref=hdr" title="Queensland Rainfall and River Conditions">Rainfall &amp; River Conditions</a></li>
+							</ul>
+							<div class="sf-menu-pointer"></div>
+						</li>
+						<li id="sf-menu-wa">
+							<abbr title="Western Australia"><a href="/wa/?ref=hdr" title="Western Australia">WA</a></abbr>
+							<ul>
+								<li class="decoration"><img src="//ws.cdn.bom.gov.au/images/weather/wa-thumb.png" alt="" /></li>
+								<li class="heading"><a href="/wa/index.shtml?ref=hdr" title="Western Australia Weather and Warnings">WA Weather &amp; Warnings</a></li>
+								<li><a href="/wa/warnings/index.shtml?ref=hdr" title="Western Australia Warnings Summary">Warnings Summary</a></li>
+								<li><a href="/wa/forecasts/index.shtml?ref=hdr" title="Western Australia Forecasts">Forecasts</a></li>
+								<li><a href="/wa/forecasts/perth.shtml?ref=hdr" title="Perth Forecast">Perth Forecast</a></li>
+								<li><a href="/wa/forecasts/map.shtml?ref=hdr" title="Western Australian Forecast Areas Map">WA Forecast Areas Map</a></li>
+								<li><a href="/wa/observations/index.shtml?ref=hdr" title="Western Australia Observations">Observations</a></li>
+								<li><a href="/wa/observations/perth.shtml?ref=hdr" title="Latest Weather Observations for the Perth Area">Perth Observations</a></li>
+								<li><a href="/wa/observations/waall.shtml?ref=hdr" title="Latest Weather Observations for Western Australia">All WA Observations</a></li>
+								<li class="last"><a href="/wa/flood/index.shtml?ref=hdr" title="Western Australia Rainfall and River Conditions">Rainfall &amp; River Conditions</a></li>
+							</ul>
+							<div class="sf-menu-pointer"></div>
+						</li>
+						<li id="sf-menu-sa">
+							<abbr title="South Australia"><a href="/sa/?ref=hdr" title="South Australia">SA</a></abbr>
+							<ul>
+								<li class="decoration"><img src="//ws.cdn.bom.gov.au/images/weather/sa-thumb.png" alt="" /></li>
+								<li class="heading"><a href="/sa/index.shtml?ref=hdr" title="South Australian Weather and Warnings">SA Weather &amp; Warnings</a></li>
+								<li><a href="/sa/warnings/index.shtml?ref=hdr" title="Warnings for South Australia">Warnings Summary</a></li>
+								<li><a href="/sa/forecasts/index.shtml?ref=hdr" title="South Australian Forecasts">Forecasts</a></li>
+								<li><a href="/sa/forecasts/adelaide.shtml?ref=hdr" title="Adelaide Forecast">Adelaide Forecast</a></li>
+								<li><a href="/sa/forecasts/map.shtml?ref=hdr" title="South Australia Forecast Area Map">SA Forecast Area Map</a></li>
+								<li><a href="/sa/observations/index.shtml?ref=hdr" title="South Australian Observations">Observations</a></li>
+								<li><a href="/sa/observations/adelaide.shtml?ref=hdr" title="Latest Weather Observations for the Adelaide Area">Adelaide Observations</a></li>
+								<li><a href="/sa/observations/saall.shtml?ref=hdr" title="Latest Weather Observations for South Australia">All SA Observations</a></li>
+								<li class="last"><a href="/sa/flood/index.shtml?ref=hdr" title="South Australia Rainfall and River Conditions">Rainfall &amp; River Conditions</a></li>
+							</ul>
+							<div class="sf-menu-pointer"></div>
+						</li>
+						<li id="sf-menu-tas">
+							<abbr title="Tasmania"><a href="/tas/?ref=hdr" title="Tasmania">TAS</a></abbr>
+							<ul>
+								<li class="decoration"><img src="//ws.cdn.bom.gov.au/images/weather/tas-thumb.png" alt="" /></li>
+								<li class="heading"><a href="/tas/index.shtml?ref=hdr" title="Tasmanian Weather and Warnings">TAS Weather &amp; Warnings</a></li>
+								<li><a href="/tas/warnings/index.shtml?ref=hdr" title="Tasmanian Warnings Summary">Warnings Summary</a></li>
+								<li><a href="/tas/forecasts/index.shtml?ref=hdr" title="Tasmanian Forecasts">Forecasts</a></li>
+								<li><a href="/tas/forecasts/hobart.shtml?ref=hdr" title="Hobart Forecast">Hobart Forecast</a></li>
+								<li><a href="/tas/forecasts/map.shtml?ref=hdr" title="Tasmanian Forecast Areas Map">Tas. Forecast Areas Map</a></li>
+								<li><a href="/tas/observations/index.shtml?ref=hdr" title="Tasmanian Observations">Observations</a></li>
+								<li><a href="/tas/observations/hobart.shtml?ref=hdr" title="Latest Weather Observations for the Hobart Area">Hobart Observations</a></li>
+								<li><a href="/tas/observations/tasall.shtml?ref=hdr" title="Latest Weather Observations for Tasmania">All Tasmanian Observations</a></li>
+								<li class="last"><a href="/tas/flood/index.shtml?ref=hdr" title="Tasmania Rainfall and River Conditions">Rainfall &amp; River Conditions</a></li>
+							</ul>
+							<div class="sf-menu-pointer"></div>
+						</li>
+						<li id="sf-menu-act">
+							<abbr title="Australian Capital Territory"><a href="/act/?ref=hdr" title="Australian Capital Territory">ACT</a></abbr>
+							<ul>
+								<li class="decoration"><img src="//ws.cdn.bom.gov.au/images/weather/act-thumb.png" alt="" /></li>
+								<li class="heading"><a href="/act/index.shtml?ref=hdr" title="Australian Capital Territory Weather and Warnings">ACT Weather &amp; Warnings</a></li>
+								<li><a href="/act/warnings/index.shtml?ref=hdr" title="Australian Capital Territory Warnings Summary">Warnings Summary</a></li>
+								<li><a href="/act/forecasts/index.shtml?ref=hdr" title="Australian Capital Territory Forecasts">Forecasts</a></li>
+								<li><a href="/act/forecasts/canberra.shtml?ref=hdr" title="Canberra Forecast">Canberra Forecast</a></li>
+								<li><a href="/act/forecasts/act.shtml?ref=hdr" title="Australian Capital Territory Forecast">ACT Forecast</a></li>
+								<li><a href="/act/observations/index.shtml?ref=hdr" title="Australian Capital Territory Observations">Observations</a></li>
+								<li class="last"><a href="/act/observations/canberra.shtml?ref=hdr" title="Latest Weather Observations for the Canberra Area">Canberra Observations</a></li>
+							</ul>
+							<div class="sf-menu-pointer"></div>
+						</li>
+						<li id="sf-menu-nt">
+							<abbr title="Northern Territory"><a href="/nt/?ref=hdr" title="Northern Territory">NT</a></abbr>
+							<ul>
+								<li class="decoration"><img src="//ws.cdn.bom.gov.au/images/weather/nt-thumb.png" alt="" /></li>
+								<li class="heading"><a href="/nt/index.shtml?ref=hdr" title="Northern Territory Weather and Warnings">NT Weather &amp; Warnings</a></li>
+								<li><a href="/nt/warnings/index.shtml?ref=hdr" title="Northern Territory Warnings Summary">Warning Summary</a></li>
+								<li><a href="/nt/forecasts/index.shtml?ref=hdr" title="Northern Territory Forecasts">Forecasts</a></li>
+								<li><a href="/nt/forecasts/darwin.shtml?ref=hdr" title="Darwin Forecast">Darwin Forecast</a></li>
+								<li><a href="/nt/forecasts/map.shtml?ref=hdr" title="Northern Territory Forecast Area Map">NT Forecast Areas Map</a></li>
+								<li><a href="/nt/observations/index.shtml?ref=hdr" title="Northern Territory Weather Observations">Observations</a></li>
+								<li><a href="/nt/observations/darwin.shtml?ref=hdr" title="Latest Weather Observations for Darwin Area">Darwin Observations</a></li>
+								<li><a href="/nt/observations/ntall.shtml?ref=hdr" title="All NT Weather Observations">All NT Observations</a></li>
+								<li class="last"><a href="/nt/flood/index.shtml?ref=hdr" title="Northern Territory Rainfall and River Conditions">Rainfall &amp; River Conditions</a></li>
+							</ul>
+							<div class="sf-menu-pointer"></div>
+						</li>
+						<li id="sf-menu-aus" class="separator">
+							<a href="/australia/?ref=hdr" title="National Weather and Warnings">Australia</a>
+							<ul>
+								<li class="decoration"><img src="//ws.cdn.bom.gov.au/images/weather/aus-thumb.png" alt="" /></li>
+								<li class="heading"><a href="/australia/index.shtml?ref=hdr" title="National Weather and Warnings">National Weather &amp; Warnings</a></li>
+								<li><a href="/australia/warnings/index.shtml?ref=hdr" title="National Warnings Summary">Warnings Summary</a></li>
+								<li><a href="/australia/majorcities.shtml?ref=hdr" title="Major Cities Forecast plus Outlook">Major Cities</a></li>
+								<li><a href="/australia/radar/index.shtml?ref=hdr" title="Radar Images">Radar Images</a></li>
+								<li><a href="/australia/charts/index.shtml?ref=hdr" title="Weather Maps">Weather Maps</a></li>
+								<li><a href="/australia/satellite/index.shtml?ref=hdr" title="Recent Satellite Images">Satellite Images</a></li>
+								<li class="last"><a href="/australia/flood/index.shtml?ref=hdr" title="Australia Rainfall and River Conditions">Rainfall &amp; River Conditions</a></li>
+							</ul>
+							<div class="sf-menu-pointer"></div>
+						</li>
+						<li class="no-menu"><a href="/global/?ref=hdr" title="Global Weather and Warnings">Global</a></li>
+						<li class="last no-menu"><a href="/ant/?ref=hdr" title="Antarctic and Southern Ocean Weather">Antarctica</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="l_shadow"></div>
+      </div>
+	  <!--<div id="site-announcement"></div>-->
+      <!-- End: Header -->
+
+      <!-- Start: Columns -->
+      <div id="columns">
+		<!-- Start: Container -->
+		<div id="container">
+<!--************* END OF STANDARD BUREAU HEADER ******-->
+
+
+  <br>
+  <table width="640" border="0" cellspacing="0" cellpadding="0" summary="">
+    <tr valign="top">
+      <td>
+        <h2 align="center"><b><font face="Arial, Helvetica, sans-serif" color="#006699">High
+          and Low Pressure Systems</font></b></h2>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <table width="640" border="0" cellspacing="0" cellpadding="0" summary="">
+    <tr valign="top">
+      <td colspan="2" height="30">
+        <p><font face="Arial, Helvetica, sans-serif" color="#006699"><b>Introduction</b></font></p>
+        </td>
+    </tr>
+    <tr>
+      <td width="20%">&nbsp;</td>
+      <td valign="top">
+        <p><font face="Arial, Helvetica, sans-serif">Regions of sinking air are
+          called <b>highs</b>, <b>high pressure regions</b> or <b>anticyclones</b>.
+          Clear skies and fair weather usually occur in these regions.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">Regions of rising air are
+          called <b>lows</b>, <b>low pressure regions</b>, <b>depressions</b>
+          or <b>cyclones</b>. Clouds rain and strong winds often occur in these
+          regions.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">See <a href="#high">high
+          pressure system</a>, <a href="#low">low pressure system</a>, <a href="#cold">cold
+          fronts</a> and <a href="#air">parcels of air</a> for more detailed and
+          information.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">Look at the map below (Figure
+          1). This shows a typical pattern of high and low pressure regions. The
+          curved blue lines are called <b><font color="#006699">isobars</font></b>.
+          These pass through areas with the same air pressure.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">Air pressure is measured
+          in hectopascals. On this weather map the isobars are at 4 hectopascal
+          intervals.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">The <b>black arrows</b> show
+          the wind direction. High and low pressure regions do not stay in the
+          same place. They move over the Earth's surface.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">The <font color="#6633CC"><b>purple
+          line</b></font> with barbs is a <b>cold front</b>. The barbs point in
+          the direction the front is moving. In the diagram below (Figure1) the
+          cold front is moving in an easterly direction.</font></p>
+        <p align="center"><font face="Arial, Helvetica, sans-serif" color="#006699">Figure
+          1<br>
+          <font size="-1">A simple weather map showing low (</font><b><font face="Times New Roman, Times, serif">L</font></b><font size="-1">)
+          and high (</font><b><font face="Times New Roman, Times, serif">H</font></b><font size="-1">)
+          pressure regions, wind direction,<br>
+          a ridge of high pressure and a cold front (the purple barbed line).
+          </font></font></p>
+        <p align="center"><img src="images/hilowsynop.gif" width="405" height="271" alt="Synoptic chart"></p>
+        <p align="left"><font face="Arial, Helvetica, sans-serif">The animations
+          given below show the movement of air (wind) in and between, high and
+          low pressure regions. They use the map above (without Australia and
+          New Zealand included).</font></p>
+        <p align="left"><font face="Arial, Helvetica, sans-serif">The balls represent
+          parcels of air. <font color="#006699"><b>Blue</b></font> = colder air,
+          <font color="#FF9900"><b>orange</b></font> = warmer air. The air warms
+          up as it falls from above and cools down as it rises.</font></p>
+        <p align="right"><font face="Arial, Helvetica, sans-serif" size="-1"><a href="#top">Go
+          to top</a></font></p>
+        </td>
+    </tr>
+  </table>
+  <br>
+  <table width="640" border="0" cellspacing="0" cellpadding="0" summary="">
+    <tr>
+      <td colspan="2" valign="top" height="30"><font face="Arial, Helvetica, sans-serif" color="#006699"><b>Animation
+        1</b></font></td>
+    </tr>
+    <tr>
+      <td width="20%" valign="top">&nbsp;</td>
+      <td valign="top">
+        <p><font face="Arial, Helvetica, sans-serif">Notice how the sinking air
+          spirals outward in an anticlockwise direction, in the high pressure
+          region (only in the southern hemisphere).</font></p>
+        <p align="left"><font face="Arial, Helvetica, sans-serif">In the low pressure
+          region the rising air spirals inward, in a clockwise direction (only
+          in the southern hemisphere). </font></p>
+        <p align="center"><font face="Arial, Helvetica, sans-serif"><br>
+          </font><font face="Arial, Helvetica, sans-serif" color="#006699" size="-1"><img src="images/mix.gif" width="467" height="231" alt="Air animation 1"></font></p>
+        <p align="right"><font face="Arial, Helvetica, sans-serif" size="-1"><a href="#top">Go
+          to top</a></font></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="top" height="30"><font face="Arial, Helvetica, sans-serif" color="#006699"><b>Animation
+        2 </b></font></td>
+    </tr>
+    <tr>
+      <td width="20%" valign="top"></td>
+      <td valign="top">
+        <p><font face="Arial, Helvetica, sans-serif">This animation shows how
+          a small part of the air may flow across the isobars from high to low
+          pressure.</font></p>
+        <p>&nbsp;</p>
+        <p align="center"><img src="images/ball.gif" width="467" height="231" alt="Air animation 2"></p>
+        <p align="right"><font face="Arial, Helvetica, sans-serif" size="-1"><a href="#top">Go
+          to top</a></font></p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" valign="top" height="30"><font face="Arial, Helvetica, sans-serif" color="#006699"><b>Animation
+        3</b></font></td>
+    </tr>
+    <tr>
+      <td width="20%" valign="top"></td>
+      <td valign="top">
+        <p><font face="Arial, Helvetica, sans-serif">This animation shows how
+          air can come from other nearby pressure systems or go to other nearby
+          pressure systems.</font></p>
+        <p align="center"><img src="images/pat.gif" width="467" height="231" alt="Air animation 3"></p>
+        <p align="right"><font face="Arial, Helvetica, sans-serif" size="-1"><a href="#top">Go
+          to top</a></font></p>
+      </td>
+    </tr>
+  </table>
+  <table width="640" border="0" cellspacing="0" cellpadding="0" summary="">
+    <tr valign="middle">
+      <td height="70">
+        <div align="center"><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699"><font color="#666666">The
+          following information is courtesy of </font><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699"><font color="#666666">Project
+          Atmosphere Australia,</font><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699"><font color="#666666">1996</font></font><font color="#666666">:</font></font><i><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699"><i><font color="#666666"><br>
+          &quot; </font></i></font><font color="#666666">General Meteorology Temperate
+          Systems&quot;.</font></i></font></div>
+      </td>
+    </tr>
+  </table>
+  <table width="640" border="0" cellspacing="0" cellpadding="0" summary="">
+    <tr valign="top">
+      <td colspan="2" height="30"><font face="Arial, Helvetica, sans-serif" color="#006699"><b><a name="high"></a>High
+        pressure systems</b></font></td>
+    </tr>
+    <tr>
+      <td width="20%"></td>
+      <td valign="top">
+        <p><font face="Arial, Helvetica, sans-serif">The air associated with a
+          high pressure system sinks down from above and warms as it does so and
+          is very stable.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">A high pressure system (anticyclone),
+          is a system of closed isobars surrounding a region of relatively high
+          pressure. When compared with low pressure systems, highs tend to cover
+          a greater area, move more slowly and have a longer life.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">When the high pressure system
+          is located over land the weather will be typically dry and free of cloud.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">Where the isobars are elongated
+          around a high pressure system (see Figure 1) they are referred to as
+          a ridge.</font></p>
+        <p align="right"><font face="Arial, Helvetica, sans-serif" size="-1"><a href="#top">Go
+          to top</a></font></p>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td colspan="2" height="30"><font face="Arial, Helvetica, sans-serif" color="#006699"><b><a name="low"></a>Low
+        pressure systems</b></font></td>
+    </tr>
+    <tr valign="top">
+      <td width="20%"></td>
+      <td>
+        <p><font face="Arial, Helvetica, sans-serif">A low pressure system (cyclone)
+          develops where relatively warm air ascends from the Earth's surface.
+          These are systems of closed isobars surrounding a region of relatively
+          low pressure.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">As the rising air cools,
+          clouds will begin to form. The instability of the air will produce quite
+          large vertical development of cumuliform clouds with associated rain
+          showers (such as cumulonimbus cloud).</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">An elongated extension of
+          isobars away from a low pressure centre is known as a trough of low
+          pressure. This trough usually contains one or more cold fronts.</font></p>
+        <p align="right"><font face="Arial, Helvetica, sans-serif" size="-1"><a href="#top">Go
+          to top</a></font></p>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td colspan="2" height="30"><font face="Arial, Helvetica, sans-serif" color="#006699"><b><a name="cold"></a>Cold
+        fronts </b></font></td>
+    </tr>
+    <tr valign="top">
+      <td width="20%"></td>
+      <td>
+        <p><font face="Arial, Helvetica, sans-serif">A cold front is the delineation
+          between cold polar air moving towards the equator and undercutting warm
+          tropical air moving poleward. The temperature differences across a cold
+          front can be extreme and associated with strong winds. The warm tropical
+          air is forced to rise and become unstable with the development of large
+          cumuliform clouds. Severe weather such as thunderstorms, squall lines
+          and severe turbulence may accompany these cold fronts.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">On a weather chart, a cold
+          front is represented as a line with barbs pointing in the direction
+          of movement of the front, from cold to warmer air (see Figure 1).</font></p>
+        <p align="right"><font face="Arial, Helvetica, sans-serif" size="-1"><a href="#top">Go
+          to top</a></font></p>
+      </td>
+    </tr>
+    <tr valign="top">
+      <td colspan="2"><font face="Arial, Helvetica, sans-serif" color="#006699"><b><a name="air"></a>Parcels
+        of air</b></font></td>
+    </tr>
+    <tr valign="top">
+      <td width="20%" height="18"></td>
+      <td height="18">
+        <p><font face="Arial, Helvetica, sans-serif">A parcel of air is, in essence,
+          nothing more than a sample of air. Generally it is assumed to be small
+          enough to be homogenous (the same all the way through). So that pressure,
+          temperature and humidity are the same throughout it, but large enough
+          to contain at least several thousand molecules so that these parameters
+          are meaningful.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">It is useful to visualise
+          a blob of air. We assume that the parcel has the same pressure as its
+          environment but also that it doesn't mix with its environment. - in
+          other words we put it in a plastic bag that is rather too large for
+          it.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">An adiabatic <i>process</i>
+          is one in which no heat is removed from, or added to, the parcel. Think
+          of the plastic bag as being thoroughly insulated.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">When a dry air parcel is
+          lifted adiabatically, its pressure falls, and so it expands. This expansion
+          takes place against the inwards pressure of the surrounding environmental
+          air on the parcel.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">The parcel expends energy
+          in &quot;pushing&quot; the environment back.</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">The only source of energy
+          available to the parcel is its temperature and so this must fall. Similarly,
+          parcels which are forced to descend become warmer.</font></p>
+        <p align="right"><font face="Arial, Helvetica, sans-serif" size="-1"><a href="#top">Go
+          to top</a></font></p>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <table width="640" border="0" cellspacing="0" cellpadding="0" summary="">
+    <tr>
+      <td>
+        <div align="center">
+          <p>&nbsp;</p>
+          <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="#top">Go
+            to top</a></font></p>
+        </div>
+        <div align="center"><font face="Arial, Helvetica, sans-serif" size="-1"><a href="learnact.htm">Back
+          to Student and Teachers page</a></font></div>
+      </td>
+    </tr>
+  </table>
+  <br>
+<!--************* START OF STANDARD BUREAU FOOTER **************-->
+</div>
+<!-- End: Container -->
+</div>
+<!-- End: Columns -->
+</div>
+<!-- End: pagewrap -->
+<!-- Start: Footer -->
+<div id="footer">
+    <div id="footer-columns">
+        <ul id="fc-one">
+            <li class="icon-link border-bottom uppercase"><a href="/australia/warnings/?ref=ftr" id="icon-link-warnings"><span>Warnings</span></a></li>
+            <li class="row-link-first uppercase"><a href="/water/?ref=ftr">Water</a></li>
+            <li class="row-link uppercase"><a href="/climate/?ref=ftr">Climate</a></li>
+            <li class="row-link uppercase"><a href="/environment/?ref=ftr">Environment</a></li>
+            <li class="border-top"><a href="/cyclone/?ref=ftr">Tropical Cyclones</a></li>
+            <li><a href="/tsunami/?ref=ftr">Tsunami Warning Centre</a></li>
+            <li><a href="/watl/?ref=ftr">Agriculture - Water and the Land</a></li>
+            <li><a href="/marine/?ref=ftr">Marine &amp; Ocean</a></li>
+            <li><a href="/uv/?ref=ftr">UV &amp; Sun Protection</a></li>
+            <li><a href="/australia/flood/?ref=ftr">Rainfall &amp; River Conditions</a></li>
+        </ul>
+        <ul id="fc-two">
+            <li class="imagebox-links">
+                <h3 class="hidden">Graphical Views</h3>
+                <ul>
+                    <li class="first"><a href="/australia/radar/?ref=ftr" id="imagebox-link-radar">Radar</a></li>
+                    <li><a href="/australia/satellite/?ref=ftr" id="imagebox-link-sat">Sat</a></li>
+                    <li><a href="/australia/charts/?ref=ftr" id="imagebox-link-maps">Maps</a></li>
+                </ul>
+            </li>
+            <li><a href="/jsp/watl/rainfall/pme.jsp?ref=ftr">Rainfall Forecasts</a></li>
+            <li><a href="/climate/ahead/?ref=ftr">Seasonal Outlooks</a></li>
+            <li><a href="/climate/change/?ref=ftr">Climate Variability &amp; Change</a></li>
+            <li><a href="/climate/data/?ref=ftr">Climate Data Online</a></li>
+            <li><a href="/water/ssf/?ref=ftr">Seasonal Streamflow Forecasts</a></li>
+            <li><a href="/water/dashboards/#/water-storages/summary/state">Water Storage</a></li>
+        </ul>
+        <ul id="fc-three">
+            <li class="icon-link border-bottom"><a href="/australia/meteye/?ref=ftr" id="icon-link-fe"><span>MetEye&trade;</span></a></li>
+            <li><a href="/weather-services/?ref=ftr">National Weather Services</a></li>
+            <li><a href="/aviation/?ref=ftr">Aviation Weather Services</a></li>
+            <li><a href="/defence/?ref=ftr">Defence Services</a></li>
+            <li><a href="http://www.ips.gov.au/?ref=ftr">Space Weather Services</a></li>
+            <li><a href="/reguser/?ref=ftr">Registered User Services</a></li>
+            <li><a href="/business-solutions/industry-solutions.shtml?ref=ftr">Industry Solutions</a></li>
+            <li><a href="/sep/?ref=ftr">Supplier Entry Point</a></li>
+        </ul>
+        <ul id="fc-four">
+            <li class="icon-link row-link-1st row-double"><a href="http://www.facebook.com/bureauofmeteorology" id="icon-link-fb"><span>Facebook</span></a></li>
+            <li class="icon-link row-link-2nd"><a id="icon-link-tw" href="http://media.bom.gov.au/social-media/"><span>Twitter</span></a></li>
+            <li class="icon-link row-link-1st"><a href="http://www.youtube.com/user/BureauOfMeteorology" id="icon-link-yt"><span>Youtube</span></a></li>
+            <li class="icon-link row-link-2nd"><a href="http://media.bom.gov.au/social?ref=ftr" id="icon-link-bl"><span>Blog</span></a></li>
+            <li class="icon-link row-link-1st border-bottom"><a href="https://plus.google.com/103437906374218799167" id="icon-link-gp"><span>Google+</span></a></li>
+            <li class="icon-link row-link-2nd border-bottom"><a href="http://www.bom.gov.au/rss/?ref=ftr" id="icon-link-rss"><span>RSS</span></a></li>
+            <li class="row-link-first"><a href="/careers/?ref=ftr">Careers</a></li>
+            <li class="row-link"><a href="/site-map/?ref=ftr">Sitemap</a></li>
+            <li class="row-link"><a href="/other/feedback/?ref=ftr">Feedback</a></li>
+            <li class="border-top"><a href="/foi/?ref=ftr">Freedom of Information</a></li>
+            <li><a href="/iwk/?ref=ftr">Indigenous Weather Knowledge</a></li>
+            <li><a href="/lam/glossary/?ref=ftr">Glossary</a></li>
+        </ul>
+        <p id="timestamp">This page was created at <strong><!--#config timefmt="%H:%M" --><!--#echo var="DATE_LOCAL" --> on <!--#config timefmt="%A %e %B %Y (%Z)" --><!--#echo var="DATE_LOCAL" --></strong></p>
+        <p id="copyright">&#169; <a href="/other/copyright.shtml?ref=ftr">Copyright</a> Commonwealth of Australia
+            <!--#config timefmt="%Y" -->
+            <!--#echo var="DATE_LOCAL" -->, Bureau of Meteorology (ABN 92 637 533 532) | <a href="/other/disclaimer.shtml?ref=ftr">Disclaimer</a> | <a href="/other/privacy.shtml?ref=ftr">Privacy</a> | <a href="/other/accessibility.shtml?ref=ftr">Accessibility</a></p>
+    </div>
+</div>
+<!-- End: Footer -->
+</div>
+<!-- End: PageHeight -->
+<!--************* END OF STANDARD BUREAU FOOTER **************-->
+<script src="/includes/analytics.js" type="text/javascript"></script>
+
+
+</div>
+</body>
+</html>

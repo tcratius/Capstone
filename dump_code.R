@@ -68,4 +68,8 @@ colSums(Weather_Data == "M")
 Dum <- Weather_Data %>%
   filter(snowfall != "M" & cool != "M" )
 
+Weather_Data_knn$codesum <- gsub("\\+", "", Weather_Data_knn$codesum)
+Weather_Data_knn$codesum <- gsub("\\ ", "", Weather_Data_knn$codesum)
 
+Weather_Data_knn <- Weather_Data_knn %>%
+  transform(codesum = sum(as.numeric(codesum)))

@@ -79,7 +79,7 @@ Weather_Data_Missing_Values$tmin <- as.numeric(Weather_Data_Missing_Values$tmin)
 Weather_Data_Missing_Values$date <- as.Date(Weather_Data_Missing_Values$date, format = "%Y-%m-%d")
 Weather_Data_Missing_Values$snowfall <- as.numeric(Weather_Data_Missing_Values$snowfall)
 Weather_Data_Missing_Values$preciptotal <- as.numeric(Weather_Data_Missing_Values$preciptotal)
-
+Weather_Data_Missing_Values$codesum <- as.character(Weather_Data_Missing_Values$codesum)
 #~~~~~~~~~~~~
 # Change temperatur from Fahrenheit to Celsius and wind speed from knots to kilometre per hour
 #~~~~~~~~~~~
@@ -88,8 +88,8 @@ Weather_Data_Missing_Values <- Weather_Data_Missing_Values %>%
   transform(wetbulb = convert_temperature(wetbulb, old_metric = "f", new_metric = "c")) %>%
   transform(tmax = convert_temperature(tmax, old_metric = "f", new_metric = "c")) %>%
   transform(tmin = convert_temperature(tmin, old_metric = "f", new_metric = "c")) %>%
-  transform(resultspeed = Knots_Kmph(resultspeed)) %>%
-  transform(avgspeed = Knots_Kmph(avgspeed))
+  transform(resultspeed = Mph_Kmph(resultspeed)) %>%
+  transform(avgspeed = Mph_Kmph(avgspeed))
 
 #~~~~~~~~~~~~
 # Apply linear model {stats} to predict the tmax based on values 
@@ -178,7 +178,7 @@ write.table(Weather_Data_Missing_Values, file = "data/raw1/Walmart/weather_data_
             eol = "\n", na = "NA", dec = ".", row.names = FALSE, col.names = TRUE,
             qmethod = c("escape", "double"), fileEncoding = "")
 
-rm(model_three, model_four, model_five, model_six, model_seven, model_eight, K, L< M, N, O, P)
+rm(model_three, model_four, model_five, model_six, model_seven, model_eight, K, L, M, N, O, P)
 #~~~~~~~~~~~~
 # Input
 #~~~~~~~~~~~
@@ -193,3 +193,9 @@ Weather_Data_knn <- read.csv(csv, header = TRUE, sep = ",", dec = ".")
 
 Weather_Data_knn <- kNN(Weather_Data_knn, k = 5, imp_var = FALSE)
 
+#~~~~~~~~~~~~
+# Output to file 
+#~~~~~~~~~~~
+write.table(Weather_Data_knn, file = "data/aggregated_formatted4/weather_data.csv", append = FALSE, quote = TRUE, sep = ",",
+            eol = "\n", na = "NA", dec = ".", row.names = FALSE, col.names = TRUE,
+            qmethod = c("escape", "double"), fileEncoding = "")
